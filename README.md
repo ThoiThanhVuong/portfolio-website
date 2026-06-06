@@ -3,7 +3,7 @@
 Dự án Website giới thiệu năng lực và CV cá nhân dành cho vị trí tuyển dụng **Frontend Developer Intern** tại **GENX PK STORY**. Website được xây dựng trên nền tảng React.js hiện đại, tối ưu SEO, khả năng tương thích cao (Responsive) và giao diện Dark/Light mode ấn tượng mang phong cách Cosmic Purple.
 
 - **GitHub Repository**: [https://github.com/ThoiThanhVuong/portfolio-website](https://github.com/ThoiThanhVuong/portfolio-website)
-- **Live Demo**: [https://portfolio-website-thanh-vuong.vercel.app](https://portfolio-website-thanh-vuong.vercel.app) *(Hoặc thay thế bằng link Vercel thực tế của bạn)*
+- **Live Demo**: [https://thanh-vuong-portfolio.vercel.app](https://thanh-vuong-portfolio.vercel.app)
 
 ---
 
