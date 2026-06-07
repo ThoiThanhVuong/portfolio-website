@@ -25,23 +25,19 @@ const Skills = () => {
               {skillsData.technical.map((group,groupIndex)=>(
                 <div key={groupIndex} className="skill-group">
                   <h4 className="skill-group-name">{group.category}</h4>
-                  <div className="skill-items">
+                  <div className="skill-badges-grid">
                     {group.items.map((skill,skillIndex)=>(
-                      <div key={skillIndex} className="kill-item">
-                        <div className="skill-info">
-                          <span className="skill-name">{skill.name}</span>
-                          <span className="skill-percentage">{skill.level}%</span>
-                        </div>
-                        <div className="skill-bar-bg">
-                          <motion.div
-                            className="skill-bar-fill"
-                            initial={{width:0}}
-                            animate={{width:`${skill.level}%`}}
-                            transition={{duration:1,ease:"easeOut",delay:skillIndex*0.05}}
-                            style={{backgroundColor:skill.color || "var(--accent)"}}
-                          />
-                        </div>
-                      </div>
+                      <motion.div
+                        key={skillIndex}
+                        className="skill-badge-item"
+                        whileHover={{ y: -3 }}
+                        style={{
+                          "--skill-color": skill.color || "var(--accent)"
+                        }}
+                      >
+                        <span className="skill-badge-dot"></span>
+                        <span className="skill-badge-name">{skill.name}</span>
+                      </motion.div>
                     ))}
                   </div>
                 </div>
