@@ -25,6 +25,6 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Node.js", "Express.js", "MongoDB", "Socket.io", "Tailwind CSS", "Zustand"],
     githubLink: "https://github.com/ThoiThanhVuong/chat-realtime.git",
     demoLink: "https://chat-realtime-frontend-theta.vercel.app/",
-    thumbnail: "/assets/moji-chat.png" 
+    thumbnail: "/assets/placeholder.png" 
   }
 ];
