@@ -17,13 +17,14 @@ export const projectsData = [
     demoLink: null, 
     thumbnail: "/assets/react.svg"
   },
+
   {
-    id: 3,
-    name: "Personal Portfolio Website",
-    description: "Trang web CV cá nhân giới thiệu thông tin, kỹ năng và các dự án của Vương. Tích hợp chuyển đổi chế độ tối (Dark mode) và hiệu ứng chuyển trang động.",
-    tags: ["React", "Vite", "Framer Motion", "CSS Variables"],
-    githubLink: "https://github.com/ThoiThanhVuong/portfolio-website",
-    demoLink: null, // Sẽ hiển thị trạng thái disabled + tooltip "Chưa triển khai" để đạt điểm đánh giá
-    thumbnail: "/assets/hero.png"
+    id: 3, 
+    name: "Moji - Realtime Chat Application",
+    description: "Ứng dụng nhắn tin thời gian thực hỗ trợ nhắn tin 1-1, tạo phòng chat nhóm, chia sẻ hình ảnh qua Cloudinary, tích hợp bộ chọn emoji, theo dõi trạng thái online và thông báo đã xem tức thời.",
+    tags: ["React", "TypeScript", "Node.js", "Express.js", "MongoDB", "Socket.io", "Tailwind CSS", "Zustand"],
+    githubLink: "https://github.com/ThoiThanhVuong/chat-realtime.git",
+    demoLink: "https://chat-realtime-frontend-theta.vercel.app/",
+    thumbnail: "/assets/moji-chat.png" 
   }
 ];
